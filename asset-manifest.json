@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/city-react/static/css/main.b66039c4.css",
+    "main.js": "/city-react/static/js/main.9cbd3430.js",
+    "static/media/intro-bg.jpeg": "/city-react/static/media/intro-bg.e3cb8887e63a5554598f.jpeg",
+    "index.html": "/city-react/index.html",
+    "main.b66039c4.css.map": "/city-react/static/css/main.b66039c4.css.map",
+    "main.9cbd3430.js.map": "/city-react/static/js/main.9cbd3430.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b66039c4.css",
+    "static/js/main.9cbd3430.js"
+  ]
+}
