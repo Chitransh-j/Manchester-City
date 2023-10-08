@@ -40,7 +40,7 @@
 }
 
 .hero .content h1{
-    font-size:  4rem;
+    font-size:  3rem;
     padding : 0.6rem 1.5rem 1.5rem; 
 }
 
@@ -53,4 +53,34 @@
 
 .content .btn{
     margin: 1rem 1.2rem;
+}
+
+
+@media screen and (max-width:1040px) {
+    .hero .content{
+        position :relative;
+        transform : translate(-50%,-40%);
+
+    }
+    
+    .hero .content h1{
+        font-size:  2rem;
+        padding : 0.6rem 1.5rem 1.5rem; 
+    }
+    
+    .hero .content p{
+        font-size: 1rem;
+        font-weight: 200;
+        text-transform: uppercase;
+       
+    }
+    .content .btn{
+        margin: 1rem 1.2rem;
+        display: grid;
+        grid-gap: 15px;
+        width:80%;
+        padding:auto;
+        margin: 2rem auto;
+    }
+    
 }

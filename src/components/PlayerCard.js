@@ -2,6 +2,7 @@ import "./PlayerCardStyles.css"
 import React from 'react'
 import { NavLink } from "react-router-dom"
 
+
 const PlayerCard = () => {
   return (
     <div classname="player-container">

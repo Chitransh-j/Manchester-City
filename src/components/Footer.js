@@ -1,6 +1,7 @@
 import "./FooterStyles.css"
 import React from 'react'
 import {FaHome,FaPhone,FaMailBulk} from "react-icons/fa"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
   return (
@@ -33,8 +34,9 @@ const Footer = () => {
 
                 </div>
             </div>
-
+               
         </div>
+        <div className="copyright"> <NavLink to="https://twitter.com/ChitranshJawere">© Made by Chitransh Jawere :)</NavLink> </div>
     </div>
   )
 }

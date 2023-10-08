@@ -6,6 +6,7 @@ import React from 'react'
 const MatchCard = () => {
   return (
     <div className="match">
+        <h1>-MATCHES-</h1>
         <div className="card-container ">
             <div className="card">
                 <h3 className="won">Match-1</h3>
